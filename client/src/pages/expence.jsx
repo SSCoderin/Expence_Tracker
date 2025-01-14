@@ -92,7 +92,12 @@ export default function Expence() {
           </form>
         </div>
       </main>
-      <Footer />
+      <div style={{
+        position: "fixed",
+        bottom: "0",
+        width: "100%",
+      }}><Footer /></div>
+      
     </>
   );
 }
