@@ -20,7 +20,7 @@ export default function Header() {
     <>
       <header className="header">
         <div>
-          <h1>Expance_Tracker</h1>
+          <h1>Expense_Tracker</h1>
         </div>
         <div
           style={{

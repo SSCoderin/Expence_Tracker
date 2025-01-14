@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer">
 
         <div>
-          <h1>Expence_Tracker</h1>
+          <h1>Expense_Tracker</h1>
         </div>
         <div>
           <h1>Contact</h1>

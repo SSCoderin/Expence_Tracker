@@ -117,7 +117,7 @@ export default function Main() {
               width: "100%",
             }}
           >
-            <h1>Welcome to the Expence Tracker</h1>
+            <h1>Welcome to the Expense Tracker</h1>
             <p>Track your expenses and manage your finances with ease.</p>
             <button
               onClick={() => {
@@ -136,7 +136,10 @@ export default function Main() {
           </div>
         </>
       )}
-      <Footer />
-    </>
+<div style={{
+        position: "fixed",
+        bottom: "0",
+        width: "100%",
+      }}><Footer /></div>    </>
   );
 }
